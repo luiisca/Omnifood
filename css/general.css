@@ -120,6 +120,7 @@ li {
   font-weight: 500;
   letter-spacing: 0.75px;
   margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 .btn:link,
@@ -198,6 +199,22 @@ li {
   align-items: center;
 }
 
+.link:link,
+.link:visited {
+  width: fit-content;
+  padding-bottom: 0.2rem;
+  font-weight: 400;
+  color: #e67e22;
+  border-bottom: solid 1px currentColor;
+  transition: all 0.3s;
+}
+.link:hover,
+.link:active {
+  border-bottom: solid 1px transparent;
+  font-weight: 400;
+  color: #cf711f;
+}
+
 /* HELPER / SETTINGS CLASSES */
 strong {
   font-weight: 500;
@@ -211,4 +228,8 @@ strong {
 }
 .center-text {
   text-align: center;
+}
+
+.row-gap-sm {
+  row-gap: 3.2rem;
 }
