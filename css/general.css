@@ -152,6 +152,7 @@ li {
   background-color: transparent;
 }
 
+/* tag */
 .tag {
   display: inline-block;
   color: #333;
@@ -176,8 +177,26 @@ li {
   padding: 0 3.2rem;
 }
 
+/* list */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  font-size: 1.8rem;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.list-icon {
+  color: #e67e22;
+  width: 3rem;
+  height: 3rem;
+}
 
 
+/* grid */
 .grid {
   display: grid;
   column-gap: 6.4rem;
@@ -199,6 +218,7 @@ li {
   align-items: center;
 }
 
+/* link */
 .link:link,
 .link:visited {
   width: fit-content;
